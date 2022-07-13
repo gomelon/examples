@@ -1,2 +1,6 @@
 github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=
 github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
+github.com/gomelon/melon v0.0.0-20220711165358-042a9095c6b3 h1:8ydl2qqqRJoDozhr5wtsM9rTkqIGC9BvgsUAN8PHr/E=
+github.com/gomelon/melon v0.0.0-20220711165358-042a9095c6b3/go.mod h1:GJGKQGaFlipo8wdY8D6+Uqs7ABZ+IdA3iwVP3iSs88g=
+github.com/huandu/xstrings v1.3.2 h1:L18LIDzqlW6xN2rEkpdV8+oL/IXWJ1APd+vsdYy4Wdw=
+github.com/huandu/xstrings v1.3.2/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=

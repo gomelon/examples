@@ -5,7 +5,7 @@ require (
 	github.com/gomelon/melon v0.0.0
 )
 
-//For develop
-//replace github.com/gomelon/melon => ../../melon
+require github.com/huandu/xstrings v1.3.2 // indirect
 
-go 1.17
+
+go 1.18
