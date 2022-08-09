@@ -15,3 +15,7 @@
 # vendor/
 
 *.idea
+
+*.idea
+.idea/
+go.sum
