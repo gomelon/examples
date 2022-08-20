@@ -6,14 +6,14 @@ import (
 )
 
 //UserDao 用户信息Dao
-//sql:table name=`user` dialect="mysql"
+//+sqlmap.Mapper Table=`user` Dialect="mysql"
 type UserDao interface {
 	//FindById 通过ID获取用户信息
-	/*sql:select query="select * from `user` where id = :id" master*/
+	/*+sqlmap.Select Query="select * from `user` where id = :id" Master*/
 	FindById(ctx context.Context, id int64) (*User, error)
-	/*sql:select query="select * from `user` where birthday >= :time"*/
+	/*+sqlmap.Select Query="select * from `user` where birthday >= :time"*/
 	FindByBirthdayGte(ctx context.Context /*sql:param ctx*/, time time.Time) ([]*User, error)
-	/*sql:select query="select count(*) as count from `user` where birthday >= :time"*/
+	/*+sqlmap.Select Query="select count(*) as count from `user` where birthday >= :time"*/
 	CountByBirthdayGte(ctx context.Context /*sql:param ctx*/, time time.Time) (int32, error)
 	//FindByName 通过用户名获取用户信息
 	FindByName(ctx context.Context, name string) (*User, error)
